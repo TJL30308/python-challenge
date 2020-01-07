@@ -47,7 +47,7 @@ with open(pypoll_results, 'w') as file_object:
     file_object.write("Election Results\n")
     file_object.write("---------------------\n")
     file_object.write("Total Votes: " + str(total_votes) + "\n")
-    file_object.write("---------------------")
+    file_object.write("---------------------\n")
     file_object.write(f"{candidates[0]}: {vote_percentages[0]}% ({vote_count[0]}) \n")
     file_object.write(f"{candidates[1]}: {vote_percentages[1]}% ({vote_count[1]}) \n")
     file_object.write(f"{candidates[2]}: {vote_percentages[2]}% ({vote_count[2]}) \n")
